@@ -20,6 +20,7 @@ Here's a tutorial walking you through official evaluation of your model. Once yo
 
 * If you want to train the model,please run the command. (We use 4 1080Ti for training, so larger than 4 gpus is recommended）:
 > `pip install -r requirements.txt`
+> 
 > `python Chexpert/bin/train.py Chexpert/config/example.json logdir --num_workers 8 --device_ids "0,1,2,3"`
 
 * If you want to test your model, please run the command:
